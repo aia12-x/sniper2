@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppin',sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;
+    background-color: beige;
+}
+
+.menu{
+    background-color: #48ef;
+    color: aliceblue;
+    padding: 10px;
+    width: 100px;
+    border-radius: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: none;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.navbar ul .active{
+    color: #48ef;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    transition:0.5s;
+}
+.navbar ul li a:hover{
+    color: #48ef;
+}
+.navbar ul button{
+    background-color: #48ef;
+    color: aliceblue;
+    padding: 15px;
+    border-radius:40px;
+    border:none;
+    cursor: pointer;
+}
+hr{
+    margin: 10px 0px;
+    opacity: 0.5;
+}
+.section-one{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one .section-one-left >*{
+    margin-top: 20px;
+}
+.section-one .section-one-left h2{
+    font-size: 40px;
+
+}
+.section-one .section-one-left p{
+    line-height: 1.5;
+    width: 80%;
+}
+.section-one .section-one-left div{
+    display: flex;
+    gap: 25px;
+}
+.section-one .section-one-left div button{
+    background-color: #48ef;
+    color:wheat ;
+    padding:15px ;
+    border-radius: 40px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.section-one-right img{
+    width: 100%;
+}
+.section-two{
+    width: 90%;
+    margin: 100px auto;
+}
+.section-two .content-up{
+text-align: center;
+}
+.section-two .content-up h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.section-two .content-up h2 span{
+    color: #48ef;
+}
+.section-two .content-up p{
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+.section-two .content-down{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.section-two .content-down .card{
+    background-color: rgb(236, 16, 100);
+    padding: 10px;
+    border-radius: 10px 50px 10px 10px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.section-two .content-down .card:hover{
+    background-color: #48ef;
+    color:white
+}
+.section-two .content-down .card:hover button{
+background-color:white;
+color:#48ef;}
+.section-two .content-down .card p{
+    line-height: 1.5;
+}
+.section-two .content-down .card> *{
+    margin-top: 20px;
+
+}
+.section-two .content-down .card button{
+    width: 100%;
+    padding: 10px;
+    background-color: #48ef;
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+.section-two .content-down .card button:hover{
+    background-color: rgb(8, 97, 230);
+    
+}
+.section-three{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section-three .section-three-left > *{
+    margin-top: 20px;
+
+}
+.section-three .section-three-left h2{
+    font-size: 30px;
+}
+.section-three .section-three-left h2 span{
+    color: #48ef;
+}
+.section-three .section-three-left p{
+    opacity: 0.5;
+    line-height: 1.5;
+}
+.section-three .section-three-left  .parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+
+}
+.section-three .section-three-left  .parent .a div{
+    background-color: rgb(177, 196, 189);
+margin-top: 20px;
+padding: 20px;
+border-radius: 50px;
+width: 200px;
+}
+.section-three .section-three-left  .parent .a div:hover p{
+    color: #48ef;
+}
+.section-three .section-three-left  .parent .a div p{
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: 0.5;
+}
+ .section-three .section-three-left button{
+    background-color: #48ef;
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+ }
+.section-three-right img{
+    width: 100%;
+}
+.section-four{
+    width: 90%;
+    margin: 100px auto;
+}
+.section-four .content-down{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-four .content-down-left .h{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.section-four .content-down-left .h div p{
+    margin-top: 10px;
+}
+
+.section-four .main-p{
+    width: 300px;
+    background-color: #48ef;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    line-height: 1.5;
+}
+.section-four .profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section-four .profile div p{
+    margin-top: 20px;
+}
+.section-four .profile img{
+    border-radius: 50%;
+}
+.section-four .content-down-left .h button{
+    background-color: #48ef;
+    color: antiquewhite;
+    font-size: 18px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #48ef;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+}
+.footer div p{
+width: 60%;
+line-height: 1.5;
+}
+.footer div h2{
+    margin-bottom: 30px;
+}
+.footer div ul{
+    list-style: none;
+}
+.footer div ul li{
+    margin-top: 15px;
+}
+.footer div ul li a{
+    color: aliceblue;
+}
+@media screen and (max-widht: 480px) {
+
+ *{
+    padding: 0;
+    margin: 0;
+ }   
+    .navbar{
+        padding: 20px;
+    }
+    .navbar .menu{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+.section-one{
+    flex-direction: column;
+}
+.section-one .section-one-left h2{
+    font-size: 30px;
+}
+.section-one .section-one-left p{
+    width: 100%;
+    text-align: center;
+}
+ .section-one-right img{
+    width: 100%;
+    margin-top: 50px;
+ }   
+  .content-up h2{
+    font-size: 18px;
+  }  
+    
+  .content-up p{
+    width: 100%;
+  } 
+    
+  .section-two .content-down{
+    flex-direction: column;
+  }  
+    
+    .section-three{
+        flex-direction: column;
+    }
+    .section-three .section-three-left h2{
+        font-size: 20px;
+    }
+    .section-three .content-down-left .parent{
+        flex-direction: column;
+    }
+    
+    .section-three .content-down-left .parent .a div{
+    
+    margin: 20px auto;
+    }
+    .section-three-right img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .section-four .content-down{
+        flex-direction: column;
+    }
+    .section-four .content-down .section-one-left .h{
+flex-direction: column;
+gap: 20px;
+    }
+    .section-four .main-p{
+        width: 200px;
+        margin-top: 50px auto;
+    }
+    .section-four .profile{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .section-four .profile div p{
+        margin-top: 20px;
+    }
+    .section-four .profile img{
+        border-radius: 50%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer div h2{
+        margin-bottom: 30px;
+    }
+    .footer div {
+        margin-top: 30px;
+    }
+    .footer div p{
+        line-height: 1.5;
+    }
+    .footer div ul{
+        list-style: none;
+    }
+    .footer div ul li{
+        margin-top: 15px;
+    }
+    .footer div ul li a{
+        color: aliceblue;
+    
+    }
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
